@@ -75,15 +75,15 @@
       <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(780,260)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
     </comp>
     <comp lib="0" loc="(810,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="P"/>
       <a name="type" val="output"/>
-      <a name="width" val="3"/>
+      <a name="width" val="4"/>
     </comp>
     <comp lib="1" loc="(610,180)" name="AND Gate"/>
     <wire from="(230,240)" to="(290,240)"/>
@@ -94,6 +94,6 @@
     <wire from="(770,260)" to="(770,280)"/>
     <wire from="(770,260)" to="(780,260)"/>
     <wire from="(770,280)" to="(810,280)"/>
-    <wire from="(800,180)" to="(800,230)"/>
+    <wire from="(800,180)" to="(800,220)"/>
   </circuit>
 </project>
